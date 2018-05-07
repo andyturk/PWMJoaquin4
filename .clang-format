@@ -1,0 +1,35 @@
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: true
+AlignOperands: true
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: true
+
+BasedOnStyle: LLVM
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Attach
+BreakConstructorInitializersBeforeComma: true
+
+
+ColumnLimit: 80
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+Cpp11BracedListStyle: true
+
+DerivePointerAlignment: false
+
+IndentWidth: 2
+
+Language: Cpp
+NamespaceIndentation: All
+
+PointerAlignment: Left
+
+SpaceAfterCStyleCast: true
+SpaceBeforeParens: ControlStatements
+Standard: Auto
+

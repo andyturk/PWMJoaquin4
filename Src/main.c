@@ -66,6 +66,8 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* USER CODE END 0 */
 
+extern void foobar();
+
 /**
   * @brief  The application entry point.
   *
@@ -102,6 +104,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  foobar();
   while (1)
   {
 
